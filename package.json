@@ -1,0 +1,33 @@
+{
+  "name": "debot-browser",
+  "collaborators": [
+    "TON Labs <support@tonlabs.io>"
+  ],
+  "description": "Standalone cli DeBot Browser",
+  "version": "0.5.5",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tonlabs/rust-debot-browser"
+  },
+  "files": [
+    "debot_browser_bg.wasm",
+    "debot_browser.js",
+    "debot_browser_bg.js",
+    "debot_browser.d.ts",
+    "LICENSE_MIT",
+    "LICENSE_APACHE"
+  ],
+  "module": "debot_browser.js",
+  "types": "debot_browser.d.ts",
+  "sideEffects": false,
+  "keywords": [
+    "debot browser",
+    "debot",
+    "browser",
+    "wasm",
+    "tonlabs",
+    "Surf",
+    "Everscale"
+  ]
+}
